@@ -1,0 +1,11 @@
+{
+  "id": "cf2seg-grounding-radiology-findings-segmentation",
+  "title": "Grounding Radiology Report Findings into Medical Image Segmentation",
+  "authors": ["Suyang Xi", "Songtao Hu", "Shansong Wang", "Hong Ding", "Yuheng Li", "Wenfeng He", "Kuo Zhang", "Luke del Balzo", "Chong Zhong", "Mingzhe Hu", "Catherine C. Liu", "Yunhao Liu"],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03051-0",
+  "abstract": "Routine radiology practice documents abnormalities primarily in narrative reports rather than pixel-level annotations. However, many clinically important analyses require spatially localized evidence. This mismatch limits the reuse of large-scale image-report archives for spatially resolved quantitative analysis, as heterogeneous clinical findings cannot be directly translated into consistent spatial representations. We therefore present Clinical-Findings-Guided Segmentation (CF2Seg), a chest X-ray segmentation framework that learns spatial representations directly from full radiology findings. We further curate a multi-source benchmark comprising 53,386 examinations, each paired with expert spatial annotations and corresponding reports across diverse thoracic pathologies and institutions. CF2Seg uses a dual-stage text–image fusion strategy in which report findings guide feature formation and are revisited during decoding to improve boundary delineation across scales. On a unified multi-source benchmark, CF2Seg achieves strong overall performance and remains stable under clinically realistic variation, including distribution shift, annotation scarcity, and clinically realistic image and report perturbations. Beyond segmentation accuracy, CF2Seg-derived masks preserve proportional lesion-burden trends with strong agreement to expert annotations, supporting retrospective spatial annotation and quantitative reuse of large-scale clinical image–report archives.",
+  "axes": ["소견 기반 국소화/설명가능성", "다기관 외부 검증"]
+}
