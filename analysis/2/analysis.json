@@ -26,5 +26,24 @@
   ],
   "figure": "",
   "note": "이 분석은 CLEAR 모델을 실제로 구동하지 않은 데이터 특성 비교이며, 로컬 민감도·거짓음성률은 계산되지 않았다. Nodule 하위군은 n=12로 통계적 검정력이 매우 낮아, PA/AP 비율 차이나 기관-장비 분포는 가설 생성 수준으로만 해석해야 한다. 병합 전 이 점을 확인해 주세요.",
-  "checks": []
+  "checks": [
+    {
+      "ok": true,
+      "name": "출처 실재",
+      "by": "모델",
+      "detail": "DOI와 OpenAlex 레코드가 확인되며 제목, Nature Biomedical Engineering, 2026-07-22 게재일, 12인 저자 목록, 0.87M/239,391 학습 규모와 4개 외부 검증 코호트 및 abstract의 CLEAR 기능 주장이 paper.json과 일치한다."
+    },
+    {
+      "ok": false,
+      "name": "데이터 분석",
+      "by": "모델",
+      "detail": "주요 코호트·Nodule·성별/연령·뷰·기관/장비·픽셀 간격 수치는 llm.hospital에서 독립 쿼리로 재현했지만, README의 전체 findings_label 조합 수는 46이 아니라 48이다."
+    },
+    {
+      "ok": false,
+      "name": "이전 에이전트",
+      "by": "모델",
+      "detail": "승인 계획의 findings-label 분포 Chart 1과 논문 검증 코호트와의 크기·연령·성별·뷰·기관/장비 비교 표가 산출물에서 누락되었다. 제출된 figure.svg는 계획의 Chart 2만 포함한다."
+    }
+  ]
 }
