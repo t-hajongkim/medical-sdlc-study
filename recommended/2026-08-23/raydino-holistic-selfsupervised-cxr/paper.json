@@ -1,0 +1,22 @@
+{
+  "id": "raydino-holistic-selfsupervised-cxr",
+  "title": "Advancing human-centric AI for robust X-ray analysis through holistic self-supervised learning",
+  "authors": [
+    "Théo Moutakanni",
+    "Piotr Bojanowski",
+    "Guillaume Chassagnon",
+    "Céline Hudelot",
+    "Armand Joulin",
+    "Yann LeCun",
+    "Matthew J. Muckley",
+    "Maxime Oquab",
+    "Marie-Pierre Revel",
+    "Maria Vakalopoulou"
+  ],
+  "venue": "Nature Communications",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41467-026-76076-4",
+  "abstract": "Abstract Foundational artificial intelligence models are gaining traction in various applications, including medical fields like radiology. However, medical foundation models are often tested on limited tasks, leaving their generalisability and biases unexplored. Here we introduce RayDINO, a large-scale self-supervised visual encoder for chest X-rays trained on 840,000 images and evaluated on 82,000 images sourced from 12 publicly available datasets. We compare RayDINO to previous state-of-the-art models across nine radiology tasks, from classification and dense segmentation to text generation, and provide an in-depth analysis of population, age and sex biases of our model. Our findings suggest that self-supervision enables patient-centric analysis useful in clinical workflows, allowing for a more holistic interpretation of X-rays. With RayDINO and small task-specific adapters, we reach state-of-the-art results and improve generalization to unseen populations while mitigating bias, illustrating the versatility and robustness of foundation models.",
+  "axes": ["다기관 일반화 및 편향", "소량 라벨 적응"]
+}
