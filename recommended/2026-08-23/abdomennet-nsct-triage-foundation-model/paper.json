@@ -1,0 +1,24 @@
+{
+  "id": "abdomennet-nsct-triage-foundation-model",
+  "title": "A foundation model for acute abdomen diagnosis stratification and triage on noncontrast computed tomography",
+  "authors": [
+    "Chao Zhu",
+    "Ruipeng Zhang",
+    "Xinyu Song",
+    "Kai Shang",
+    "Yu Lu",
+    "Wenjuan Wu",
+    "Jian Ma",
+    "Yixiao Tang",
+    "Zhongzheng Cao",
+    "Li Shen",
+    "Jianyong Wei",
+    "Lisong Dai"
+  ],
+  "venue": "Nature Communications",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41467-026-76634-w",
+  "abstract": "Accurate and timely diagnosis of acute abdominal emergencies remains challenging. Non-contrast computed tomography (NCCT) is often used as an initial imaging modality because of atypical presentations, contraindications to contrast, or resource constraints. Here we present AbdomenNet, a multi-task AI system built on a self-supervised foundation model that detects 11 acute abdominal conditions and performs three risk-stratification subtasks from NCCT images. AbdomenNet is pre-trained on 103,989 NCCT examinations and fine-tuned on 5816 annotated cases. We assess generalizability in 2528 patients from three independent external cohorts, evaluate radiologist performance in a multi-reader multi-case crossover study, and estimate workflow impact using retrospective reconstruction. In external validation, AbdomenNet achieves a macro-average AUROC of 0.919 for five emergent conditions. AI assistance increases radiologists’ mean AUROC from 0.812 to 0.924 and reduces median reading time by 52.5 seconds per case. Workflow reconstruction indicates that AI-driven prioritization could shorten median report turnaround time by 37 minutes. The authors present AbdomenNet, a foundation model for non-contrast computed tomography. It detects 11 acute abdominal conditions, helps identify high-risk cases, improves radiologist accuracy, and may speed emergency reporting.",
+  "axes": ["다기관 외부 검증", "판독자 보조 임상 효용"]
+}
