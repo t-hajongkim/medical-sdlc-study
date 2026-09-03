@@ -1,0 +1,11 @@
+{
+  "id": "pulmonary-nodule-ai-reading-time-ct",
+  "title": "Impact of Commercial Artificial Intelligence on Radiologist Reading Time for Pulmonary Nodule Evaluation at Chest CT",
+  "authors": ["Jasika Paramasamy", "Arlette E. Odink", "Ties A. Mulders", "Daniël Bos", "Aad van der Lugt", "Joachim G.J.V. Aerts", "Jacob J. Visser"],
+  "venue": "Radiology",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1148/radiol.260484",
+  "abstract": "Implementation of commercial artificial intelligence–assisted pulmonary nodule assessment on chest CT scans reduced radiologist reporting time in a real-world clinical setting.",
+  "axes": ["임상 워크플로 영향", "판독 효율성"]
+}
