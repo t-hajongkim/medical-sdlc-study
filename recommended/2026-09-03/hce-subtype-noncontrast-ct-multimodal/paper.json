@@ -1,0 +1,23 @@
+{
+  "id": "hce-subtype-noncontrast-ct-multimodal",
+  "title": "Lightweight non-contrast CT-based multimodal artificial intelligence for subtype classification of hepatic cystic echinococcosis in resource-limited clinical settings",
+  "authors": [
+    "Zhanjin Wang",
+    "Xuxia A",
+    "Weiwei Xue",
+    "Du kaihao",
+    "Jiejie He",
+    "Xujie Wang",
+    "W D Li",
+    "YouHui Zheng",
+    "Ying Zhou",
+    "Haijiu Wang",
+    "Haining Fan"
+  ],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03150-y",
+  "abstract": "Hepatic cystic echinococcosis (HCE) requires accurate WHO–IWGE CE1–CE5 subtyping to guide treatment, but timely non-invasive classification remains challenging in resource–limited settings. We developed and externally validated a lightweight, interpretable, two-stage multimodal deep–learning framework based on non-contrast CT for automated lesion segmentation and CE1–CE5 classification, and assessed whether model assistance improved physician performance. This multicentre retrospective study included 733 patients from Qinghai University Affiliated Hospital for development and internal validation and 261 patients from two county-level hospitals for external validation. We compared 2D multi–slice, 3D volumetric, and multimodal fusion models integrating 2D, 3D, and radiomics features, using macro-AUC as the primary outcome. The multimodal model achieved the highest observed macro-AUC, with macro-AUC of 0.942 (95% CI: 0.910–0.964) internally and 0.931 (95% CI: 0.898–0.956) externally; subtype–level AUCs were consistent across CE1–CE5, with most errors occurring between adjacent transitional stages. In the reader study, AI-assisted interpretation yielded higher observed macro-AUCs than physician-only interpretation in the tertiary cohort (0.970 vs. 0.905) and the county-hospital cohort (0.963 vs. 0.902). Interpretability analyses localised subtype-relevant regions and quantified patient-specific modality contributions, supporting prospective evaluation as a human-in-the-loop decision-support tool using widely available non–contrast CT.",
+  "axes": ["다기관 외부검증", "AI 보조 판독 성능 개선"]
+}

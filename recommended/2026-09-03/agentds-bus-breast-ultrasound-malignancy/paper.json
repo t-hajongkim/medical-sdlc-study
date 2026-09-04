@@ -1,0 +1,22 @@
+{
+  "id": "agentds-bus-breast-ultrasound-malignancy",
+  "title": "AgentDS-BUS: a fine-tuning-free agentic breast ultrasound malignancy classification framework with decoupled segmentation and feature analysis",
+  "authors": [
+    "Pengze Li",
+    "Lijie Huang",
+    "Tao Wu",
+    "Francisco J. Maldonado",
+    "Lekui Xiao",
+    "Chengwu Huang",
+    "Robert Fazzio",
+    "Eric Williamson",
+    "Shigao Chen",
+    "Cui Tao"
+  ],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03144-w",
+  "abstract": "Breast ultrasound (BUS) malignancy assessment is challenged by acquisition variability and cross-dataset shift. We developed AgentDS-BUS, an agentic clinical decision-support framework that uses pretrained foundation models without additional BUS-specific model fine-tuning and decomposes malignancy assessment into lesion localization and segmentation, region-of-interest (ROI)-conditioned extraction of Breast Imaging Reporting and Data System (BI-RADS)-aligned evidence, and structured decision aggregation. In this implementation, lesion masks are obtained using consensus-gated Segment Anything Model 3 (SAM3), with clinician-provided bounding boxes used for fallback segmentation in low-consensus cases. Across 4,331 images from seven public BUS benchmarks and three vision-language model (VLM) backbones, AgentDS-BUS improved pooled AUROC/AUPRC over image-only prompting. Under Qwen3-VL, performance increased from 0.636/0.524 with image-only prompting to 0.717/0.606 for AgentDS-BUS with consensus-gated ROIs and 0.791/0.654 for AgentDS-BUS with ground-truth (GT) oracle ROIs. With Lingshu, AgentDS-BUS achieved 0.760/0.678 in the consensus-gated ROI setting and 0.807/0.715 in the GT-ROI setting. These findings support structured agentic decomposition and ROI-conditioned evidence extraction as a transparent approach to BUS decision support.",
+  "axes": ["다기관 외부검증"]
+}

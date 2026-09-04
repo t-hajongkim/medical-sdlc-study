@@ -1,0 +1,24 @@
+{
+  "id": "prism-focal-liver-lesion-noncontrast-mri",
+  "title": "Interpretable deep learning for three-stage focal liver lesion diagnosis on non-contrast MRI: a multicenter, prospective study",
+  "authors": [
+    "Shunjie Dong",
+    "Zhehan Shen",
+    "Ji Xia",
+    "Xueyang Zou",
+    "Huan Liu",
+    "Yu Fu",
+    "Dian Ding",
+    "Zhao Xinxiang",
+    "Jie Yuan",
+    "Huijuan Tu",
+    "Yixing Yu",
+    "Linhao Qu"
+  ],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03032-3",
+  "abstract": "Early and accurate diagnosis of focal liver lesions (FLLs) is crucial for guiding treatment strategies and improving patient outcomes. However, FLL diagnosis is often limited by the suboptimal sensitivity of ultrasound, as well as the high cost, gadolinium burden, and time-intensive acquisition and interpretation characteristic of dynamic contrast-enhanced MRI. To address these challenges, we introduce P lain MRI R ecognition and I nterpretable S ystem for hepatic M alignancy (PRISM), a novel deep learning framework designed for automated, gadolinium-free FLL diagnosis. The framework was developed and validated using a large-scale, multicenter cohort of 12,823 patients from 9 institutions, incorporating multicenter retrospective data and single-center prospective data for comprehensive lesion segmentation and classification. PRISM employs a three-stage paradigm using noninvasive non-contrast MRI (NC-MRI), beginning with automated FLL detection and segmentation, followed by benign-malignant classification, and culminating in a precise four-subtype classification model for suspicious malignant findings. The binary and four-subtype classification models demonstrated exceptional performance, achieving mean accuracies of 0.981 and 0.859 across the five test cohorts, respectively. A multireader multicase study involving 13 radiologists of varying experience levels demonstrated that AI assistance realized significant gains in diagnostic accuracy for both benign-malignant (Protocol B vs. A, 4.4% increase) and four malignant subtype classification (Protocol E vs. C, 12.1% increase). These improvements were accompanied by 30.5% (10.9 s, 95% CI: 9.8–12.0) and 66.6% (61.8 s, 95% CI: 58.9–64.7) reductions in interpretation time, respectively. Furthermore, a single-center prospective study of 1,147 consecutive patients demonstrated PRISM's utility in diagnostic triage, identifying 79.3% of the cohort as low-risk with a negative predictive value of 99.1%. By providing expert-level interpretable diagnosis on NC-MRI, PRISM offers a viable, non-invasive pathway to streamline the clinical diagnostic workflow for liver malignancies.",
+  "axes": ["다기관 외부검증", "AI 보조 판독 성능 개선"]
+}
