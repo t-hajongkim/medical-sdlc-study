@@ -1,0 +1,21 @@
+{
+  "id": "cohort-aware-ct-pulmonary-lesion-prognosis",
+  "title": "Cohort-aware CT-first modeling for clinically oriented pulmonary lesion characterization and prognosis",
+  "authors": [
+    "Jie Peng",
+    "Xian Liu",
+    "Yaping Quan",
+    "Zhongjun Huang",
+    "Minfang Wang",
+    "Hongyan Luo",
+    "Shengxing Liang",
+    "Hongbo Zhu",
+    "Lushan Xiao"
+  ],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03159-3",
+  "abstract": "Accurate management of pulmonary lesions requires risk estimates that remain usable across screening and diagnostic settings, under variable data availability, and with heterogeneous reference standards. We developed a cohort-aware framework that used CT as the universal input and incorporated PET, structured clinical variables, survival follow-up, and histopathology only when available. Across four harmonized cohorts totaling 28,105 cases, the model generated calibrated lesion-level malignancy risk, lesion support maps, and patient-level survival estimates. Internal classification performance was high across LIDC-IDRI, Lung-PET-CT-Dx, and NLST, with areas under the curve of 0.955 to 0.978 and Brier scores of 0.038 to 0.056. Spatial agreement remained strong, with Dice coefficients of 0.834 to 0.928 internally and 0.878 on independent external validation. Prognostic performance was retained after patient-level aggregation, with concordance indices of 0.709 in NLST and 0.857 on external NSCLC-Radiomics. Ablation studies showed non-redundant contributions from lesion support, perilesional context, reference-aware supervision, calibration, selective PET augmentation, patient-level aggregation, and histopathology-consistency regularization. Selective PET use outperformed both CT-only inference and unconditional PET fusion, supporting a contingent multimodal strategy. These findings support a clinically oriented pathway in which routine CT provides the default substrate for pulmonary lesion assessment, calibrated probabilities inform surveillance and biopsy decisions, and additional imaging is reserved for cases in which incremental value is expected. Prospective multicenter validation is warranted.",
+  "axes": ["기관 간 일반화", "결절/병변 특성화"]
+}
