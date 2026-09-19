@@ -1,0 +1,24 @@
+{
+  "id": "ruq-ultrasound-multitask-clinical-decision",
+  "title": "A multitask framework for automated multi-frame right upper quadrant ultrasound interpretation and clinical decision support",
+  "authors": [
+    "Haiman Guo",
+    "Cheng-Yi Li",
+    "Yuli Wang",
+    "Robin Wang",
+    "Yuwei Dai",
+    "Qinghai Peng",
+    "Danming Cao",
+    "Zhusi Zhong",
+    "Thao Vu",
+    "Linmei Zhao",
+    "Chengzhang Zhu",
+    "Christopher Tan"
+  ],
+  "venue": "Nature Communications",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41467-026-77498-w",
+  "abstract": "Ultrasound is a cornerstone of emergency and hepatobiliary imaging, yet its interpretation remains highly operator-dependent and time-sensitive. Here, we present a multitask vision-language agent (VLM) developed to assist with right upper quadrant (RUQ) ultrasound interpretation across the diagnostic workflow. The system was trained on data from a single tertiary academic medical center (9189 cases, 594,099 images) and evaluated on datasets from two independent institutions (1704 cases, 90,616 images; and 108 cases, 3240 images). The agent integrates frame-level visual understanding with report-grounded language reasoning to perform three tasks: (i) classification of 16 clinical findings, (ii) generation of diagnostic reports, and (iii) surgical decision support based on ultrasound findings and clinical data. For classification, the model achieved macro areas under the receiver operating characteristic curve (AUROCs) of 0.820, 0.794, and 0.775 on the internal, University of Colorado, and Stanford cohorts, respectively, and an internal micro AUROC of 0.865. It also generated post-edited reports that were difficult for radiologists to distinguish from expert-written versions in blinded evaluations. The agent further predicted cholecystectomy using generated reports and clinical data. These results support further evaluation of vision-language models for improving diagnostic consistency, reporting efficiency, and surgical triage in ultrasound practice. Authors developed an AI system for interpreting multi-frame right upper quadrant ultrasound examinations. Across three institutions, it classified findings, generated reports, and predicted the need for cholecystectomy.",
+  "axes": ["기관 간 일반화", "임상 의사결정 지원"]
+}
