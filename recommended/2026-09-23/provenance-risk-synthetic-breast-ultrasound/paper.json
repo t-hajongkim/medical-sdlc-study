@@ -1,0 +1,11 @@
+{
+  "id": "provenance-risk-synthetic-breast-ultrasound",
+  "title": "Staged purpose-blinded evaluation of provenance risk from a general-purpose generator in breast ultrasound",
+  "authors": ["Zhenqi Zhang", "Min Zhuang", "Ziyue Hu", "Yi Li", "Shuchen Zhang", "Yin Li", "Huaying Bo", "Minggang Wu", "Jing Zhao", "Chaoyang Luo", "Qing Yang", "Xinxin Xian"],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03209-w",
+  "abstract": "Commercial general-purpose image generators may create medical-looking content outside controlled medical-AI research, raising provenance concerns. We evaluated a general-purpose generator that produced breast ultrasound images without medical-specific development or patient-image inputs. The primary scientific component was a purpose-blinded Phase 1 design in which 12 readers assessed 60 images per source without knowing synthetic images were present, measuring pre-verification vulnerability. Crossed reader-and-image models showed higher reader-perceived quality for synthetic images (difference, 0.44; 95% CI, 0.33–0.55) and higher model-estimated sufficiency for basic image-level judgement (95.9% versus 86.7%). Only 3 of 12 readers spontaneously questioned provenance. Phase 2 measured explicit provenance detection (accuracy, 70.8%); a separate cue-supported Phase 3 set without file-level overlap provided exploratory workflow-response signals (accuracy, 79.5%). Readers selected review, verification or non-use in 94.9% of synthetic-image evaluations. This staged acceptance–detection–response framework identifies cross-domain provenance risk but does not establish clinical fidelity, diagnostic equivalence or causal intervention efficacy.",
+  "axes": ["합성 영상 신뢰성", "판독자 영향/워크플로"]
+}
