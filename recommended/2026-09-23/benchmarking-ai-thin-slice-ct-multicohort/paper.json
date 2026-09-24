@@ -1,0 +1,11 @@
+{
+  "id": "benchmarking-ai-thin-slice-ct-multicohort",
+  "title": "Benchmarking AI-generated thin-slice CT under clinical reconstruction conditions: a multicohort study",
+  "authors": ["Pengxin Yu", "Haoyue Zhang", "Yang Xiaoyan", "Chenghao Piao", "Shuiqing Zhao", "Mei Xie", "Xuwen Cheng", "Dawei Wang", "Wei Qian", "Stephanie Harmon", "Baris Turkbey", "Yudong Wu"],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03253-6",
+  "abstract": "Thin-slice CT provides finer anatomical depiction, but in some clinical settings, only thick-slice CT images are available, resulting in reduced visible anatomical detail. Simply resampling to a smaller through-plane spacing cannot alleviate partial-volume-related image degradation, motivating deep learning-based CT slice synthesis (CSS) as an auxiliary strategy. Here, we release Multi-ratio Slice Synthesis CT (MSS-CT), a multi-ratio real-paired dataset comprising thick-slice and 1 mm CT reconstructed from identical raw acquisitions, covering 3 mm-to-1 mm (500 pairs) and 5 mm-to-1 mm (1500 pairs) synthesis. Using MSS-CT, we developed BasicCSS as a reference model, evaluated it against representative CSS methods in a multicohort setting, and compared real-paired with pseudo-paired training. BasicCSS achieved the highest performance in internal and external testing, whereas pseudo-paired training led to marked declines across all evaluated methods, consistent with mismatch between simulated thick-slice inputs and clinically reconstructed thick-slice CT. Downstream consistency analyses showed that BasicCSS-synthesized 1 mm CT had higher consistency with real 1 mm CT-derived segmentation and radiomic outputs than conventional interpolation. In a two-radiologist reader study, synthesized 1 mm CT reviewed alongside original 5 mm CT as an auxiliary view received high usefulness and confidence-support scores. These results suggest that AI-generated thin-slice CT may serve as an auxiliary image when real thin-slice CT is unavailable, and that MSS-CT and BasicCSS enable reproducible benchmarking for future CSS development and evaluation under clinically reconstruction conditions.",
+  "axes": ["합성 영상 신뢰성", "판독자 영향/워크플로"]
+}
