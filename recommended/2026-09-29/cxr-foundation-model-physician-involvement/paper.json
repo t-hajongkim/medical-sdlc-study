@@ -1,0 +1,21 @@
+{
+  "id": "cxr-foundation-model-physician-involvement",
+  "title": "Physician involvement and research quality in chest X-ray foundation models",
+  "authors": [
+    "Ammar Ahmed Pallikonda Latheef",
+    "V.J. Phillips",
+    "Aditya Kulkarni",
+    "Changhyun Park",
+    "Pritam Mukherjee",
+    "Paul H. Yi"
+  ],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03205-0",
+  "abstract": "Chest radiograph foundation models (FMs) are developing rapidly, yet their reporting practices remain unknown. We systematically reviewed 41 FMs published through 3/24/2025 and assessed technical trends, CLAIM adherence, artifact sharing, and physician co-authorship. Transformers and large language model components were increasingly common, while model sharing was limited. Physician co-authorship was associated with higher CLAIM adherence and more frequent fairness discussion, supporting clearer reporting standards for clinically oriented AI research.",
+  "axes": [
+    "보고 품질·재현성",
+    "공정성·편향"
+  ]
+}
