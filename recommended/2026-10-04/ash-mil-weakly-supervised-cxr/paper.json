@@ -1,0 +1,24 @@
+{
+  "id": "ash-mil-weakly-supervised-cxr",
+  "title": "Anatomy-Structured Hierarchical MIL for Weakly-Supervised Thoracic Disease Detection in Chest X-rays",
+  "authors": [
+    "Jeongin Kim",
+    "Sohyun Ahn",
+    "Seo Young Kang",
+    "Jaeyi Sung",
+    "Soomin Kim",
+    "Sungho Cho",
+    "Rena Lee",
+    "Kwanchang Kim",
+    "Junhyug Noh"
+  ],
+  "venue": "MICCAI",
+  "year": 2026,
+  "source": "arXiv",
+  "url": "http://arxiv.org/abs/2609.33520v1",
+  "abstract": "Weakly-supervised thoracic disease detection in chest X-rays (CXR) is challenging due to subtle appearances and complex anatomical overlap, motivating anatomy-aware modeling for improved localization. However, prior anatomy-aware methods typically rely on coarse region proxies or static spatial priors, which may restrict dynamic instance discovery and limit precise localization of small abnormalities. We propose Anatomy-Structured Hierarchical Multiple Instance Learning (ASH-MIL), a framework that introduces parallel anatomy-structured observation branches (cardiac, pulmonary, and agnostic) combined with hierarchical MIL aggregation. Anatomical priors are injected as soft spatial biases into decoder cross-attention, enabling anatomically grounded evidence maps without disease bounding-box supervision. Instance localization is derived directly from MIL-weighted cross-attention maps without bounding box supervision. Experiments on CXR8 and cross-domain MIMIC-CXR held-out sets demonstrate consistent improvements over prior weakly-supervised and anatomy-aware approaches, particularly under stricter localization criteria. Our code is available at https://github.com/jn-kim/ash-mil.",
+  "axes": [
+    "약지도 병변 국소화",
+    "교차 도메인 일반화"
+  ]
+}
