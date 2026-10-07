@@ -1,0 +1,24 @@
+{
+  "id": "cxr-lt-2026-multicenter-longtail-classification",
+  "title": "CXR-LT 2026 challenge: Multi-center long-tailed and zero shot chest X-ray classification",
+  "authors": [
+    "Hexin Dong",
+    "Yi Lin",
+    "Pengyu Zhou",
+    "Fengnian Zhao",
+    "Alan Clint Legasto",
+    "Juno Cho",
+    "Dohui Kim",
+    "Justin N. Kim",
+    "Mingeon Kim",
+    "Sunwoo Kwak",
+    "Gabriel Moyà-Alcover",
+    "Ky Trung Nguyen"
+  ],
+  "venue": "Medical Image Analysis",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1016/j.media.2026.104340",
+  "abstract": "",
+  "axes": ["기관 간 일반화", "희소 소견(롱테일)"]
+}
