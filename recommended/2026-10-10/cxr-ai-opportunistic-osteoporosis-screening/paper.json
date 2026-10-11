@@ -1,0 +1,24 @@
+{
+  "id": "cxr-ai-opportunistic-osteoporosis-screening",
+  "title": "Artificial intelligence for opportunistic osteoporosis screening on chest radiographs",
+  "authors": [
+    "Youngjune Kim",
+    "Dong Hyun Lee",
+    "Sun-ju Byeon",
+    "Hye Soo Cho",
+    "Seungkwan Jo",
+    "Chang Min Park",
+    "Joon Woo Lee",
+    "Minyoung Chung",
+    "Ju Gang Nam"
+  ],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03333-7",
+  "abstract": "We developed an artificial intelligence model (AI-OsRM) to predict osteoporosis and reduced bone mineral density (BMD) from chest radiographs (CXR) and evaluated its performance and clinical utility across three external cohorts. AI-OsRM was developed using 46,478 paired CXR and dual-energy X-ray absorptiometry (DXA) examinations from 26,757 patients collected at a tertiary referral hospital between 2016 and 2022, using a ResNet-based architecture with masked autoencoder pretraining. External validation was performed in three independent cohorts, including a temporally separated hospital cohort (SNUH; n = 6391) and two large health checkup cohorts (HPC, n = 24,132; YSMC, n = 122,535). In the SNUH cohort, AI-OsRM achieved an area under the receiver operating characteristic curve (AUROC) of 0.88 (95% CI: 0.87–0.89) for both osteoporosis and reduced BMD. In the health checkup cohorts, AUROCs for osteoporosis detection were 0.93 (95% CI: 0.92–0.93) in HPC and 0.92 (95% CI: 0.92–0.92) in YSMC. Simulation analyses demonstrated that AI-OsRM–based prescreening could reduce DXA utilization by approximately 50% while maintaining detection of 98-99% of osteoporosis cases and 80–90% of reduced BMD cases. These findings suggest that AI-OsRM can enable accurate identification of individuals with osteoporosis or reduced BMD and may serve as an effective prescreening tool to optimize DXA utilization.",
+  "axes": [
+    "기관 간 일반화",
+    "기회적 선별검사"
+  ]
+}
