@@ -1,0 +1,27 @@
+{
+  "id": "automation-bias-neonatal-pneumoperitoneum",
+  "title": "Expertise modulates automation bias and sentinel behavior in human–AI collaborative diagnosis of neonatal pneumoperitoneum",
+  "authors": [
+    "Junseong Lee",
+    "Yeonsu Kim",
+    "Victoria Kim",
+    "Changhyun Park",
+    "Jeong Min Song",
+    "Jimin Kwon",
+    "Yoojin Nam",
+    "Patrick Lenehan",
+    "Dong  Yeong Kim",
+    "Young Ah Cho",
+    "Pyeong Hwa Kim",
+    "Jae-Yeon Hwang"
+  ],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03399-3",
+  "abstract": "Medical AI is often validated under an additive assumption that algorithmic sensitivity and clinician oversight will combine to improve care. We tested this assumption in the high-stakes diagnosis of neonatal pneumoperitoneum, a time-critical surgical emergency. In a multi-reader crossover study analyzing 1750 interpretation events, clinicians reviewed radiographs aided by either a high-reliability model or a systematically error-injected model. We found that high AI reliability paradoxically induces automation bias in trainees, who accepted 52.0% of incorrect suggestions, while offering limited gains to experts. Conversely, when challenged by flawed AI, the three participating neonatologists exhibited a “sentinel behavior” phenotype, correctly overriding 91.7% of errors (Wilson 95% CI: 83.0–96.0%) consistent with increased deliberation; given the small specialist cohort, this finding is hypothesis-generating and warrants prospective replication. We operationalize systemic resilience as the capacity to maintain diagnostic integrity under algorithmic failure and demonstrate that clinical validity depends on the human–AI team’s adversarial resilience rather than standalone accuracy. To mitigate the risk of deskilling and never-skilling, we release an open-source educational sandbox designed to inoculate clinicians against automated errors.",
+  "axes": [
+    "임상 선별검사 활용",
+    "인간-AI 협업"
+  ]
+}
