@@ -1,0 +1,26 @@
+{
+  "id": "medisyn-text-guided-medical-image-synthesis",
+  "title": "A generalist model for diverse text-guided medical image synthesis",
+  "authors": [
+    "Joseph Cho",
+    "Mrudang Mathur",
+    "Cyril Zakka",
+    "Dhamanpreet Kaur",
+    "Matthew Leipzig",
+    "Kelly C. Higa",
+    "Alex Dalal",
+    "Aravind Krishnan",
+    "Eubee Koo",
+    "Karen M. Wai",
+    "Cindy S. Zhao",
+    "Akshay Sanjay Chaudhari"
+  ],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03381-z",
+  "abstract": "Deep learning requires extensive data to achieve robust performance. However, data availability is often restricted in medicine due to patient privacy concerns. Synthetic data from medical image generative models present a possible solution to these challenges. Unfortunately, many models are often task-specific or trained on private datasets, limiting scalability and reproducibility. To address this, we introduce MediSyn: an open-access, generalist, text-guided latent diffusion model. MediSyn can generate images across 6 medical specialties and 10 imaging modalities, while being trained exclusively on public data. Our study provides several key contributions using MediSyn. First, we demonstrate that a generalist model can generate images of comparable quality to task-specific models across multiple specialties. Second, we show that this generalist approach is more computationally efficient than a suite of task-specific models. Third, we establish that a generalist model can produce realistic, text-aligned images across visually and medically distinct modalities. Fourth, we empirically demonstrate that these synthetic images are visually distinct from real images used in training. Finally, we show that a generalist model can produce images that improve classifier performance in data-limited settings across multiple specialties. Altogether, our findings highlight the potential of generalist image generative models to accelerate medical algorithmic research and development.",
+  "axes": [
+    "데이터 부족·합성 데이터"
+  ]
+}
