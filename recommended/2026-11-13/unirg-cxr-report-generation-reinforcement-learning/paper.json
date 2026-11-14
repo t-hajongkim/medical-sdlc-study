@@ -1,0 +1,27 @@
+{
+  "id": "unirg-cxr-report-generation-reinforcement-learning",
+  "title": "Scaling medical imaging report generation with multimodal reinforcement learning",
+  "authors": [
+    "Qianchu Liu",
+    "Sheng Zhang",
+    "Guanghui Qin",
+    "Yu Gu",
+    "Ying Jin",
+    "Sam Preston",
+    "Yanbo Xu",
+    "Sid Kiblawi",
+    "Wen-wai Yim",
+    "Timothy Ossowski",
+    "Tristan Naumann",
+    "Mu Wei"
+  ],
+  "venue": "Nature Communications",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41467-026-78767-4",
+  "abstract": "In medical imaging report generation, supervised fine-tuning can overfit to superficial patterns and generalize poorly across institutions. We introduce Universal Report Generation (UNIRG), which adopts reinforcement learning to directly optimize clinically meaningful quality criteria. With this framework, we developed UNIRG-CXR, an 8-billion-parameter vision–language model trained on four public datasets (MIMIC-CXR, CheXpert Plus, ReXGradient-160k and IU-Xray) by supervised fine-tuning followed by reinforcement learning (group-relative policy optimization) against a composite lexical, semantic and clinical-error reward. We evaluated held-out test sets and an external proprietary dataset, with RadCliQ as primary metric and expert radiologist validation. Here we show that our method improves report quality and generalization: UNIRG-CXR surpasses prior models on the ReXrank benchmark across four datasets and two generation settings, exceeding the previous best score by over 50% on two test sets, and produces fewer clinically significant errors while maintaining performance on unseen data sources and across demographic subgroups.",
+  "axes": [
+    "기관 간 일반화",
+    "판독 보고서 품질"
+  ]
+}
